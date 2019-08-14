@@ -384,6 +384,15 @@
         <url-pattern>/traced_remote_api/*</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>DatastoreExport</servlet-name>
+        <servlet-class>org.akvo.flow.datastore.export.DatastoreExportServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DatastoreExport</servlet-name>
+        <url-pattern>/datastore-export</url-pattern>
+    </servlet-mapping>
+
     <filter>
         <filter-name>persistenceFilter</filter-name>
         <filter-class>com.gallatinsystems.framework.servlet.PersistenceFilter</filter-class>

@@ -131,7 +131,7 @@
     <dependency>
         <groupId>org.json</groupId>
         <artifactId>json</artifactId>
-        <version>20090211</version>
+        <version>20180813</version>
     </dependency>
     <dependency>
         <groupId>org.apache.poi</groupId>
@@ -205,7 +205,11 @@
         <artifactId>commons-lang</artifactId>
         <version>2.4</version>
     </dependency>
-
+    <dependency>
+        <groupId>com.google.guava</groupId>
+        <artifactId>guava</artifactId>
+        <version>25.1-android</version>
+    </dependency>
     <!-- test dependencies -->
     <dependency>
       <groupId>org.junit.jupiter</groupId>
